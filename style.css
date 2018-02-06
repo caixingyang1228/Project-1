@@ -1,0 +1,86 @@
+
+
+h1 {
+  text-align: right;
+  font-family:'Monoton', cursive;
+  font-size: 80px;
+  font-weight: normal;
+  color:#b400d8
+}
+
+
+.main {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#2382ff;
+}
+
+.point1,.point6,.point11{
+  text-align: left;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#5e3aff;
+}
+
+.point2,.point7,.point12{
+  text-align: right;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#8f33f7;
+}
+
+.point3,.point8,.point13 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#e632f7;
+}
+
+.point4,.point9,.point14 {
+  text-align: right;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#f732a1;
+}
+
+.point5,.point10,.point15{
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color:#f732a1;
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/S5iqkyBY9o4KY/giphy.gif");
+    background-repeat: repeat;
+    background-size:300px 300px;
+}
+
+.video {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 80%;
+    min-height: 80%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    overflow: hidden;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.lyrics, .video{
+    flex: 1;
+}
